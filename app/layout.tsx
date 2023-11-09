@@ -5,6 +5,7 @@ import StarsCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
 import { ColorProvider } from "@/context/colors/colorContext";
 import PhoneNav from "@/components/main/PhoneNav";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,9 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
       >
+        <Head>
+          <link rel="icon" href="/author.png" />
+        </Head>
         <ColorProvider>
           <StarsCanvas />
           <Navbar />

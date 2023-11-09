@@ -47,8 +47,8 @@ const Footer = () => {
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Social Media</div>
-            {FooterSocialLinks?.map((social) => (
-              <Link href={social.href}>
+            {FooterSocialLinks?.map((social, index) => (
+              <Link href={social.href} key={index}>
                 <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   {social.icon}
                   <span className="text-[15px] ml-[6px]">{social.name}</span>
@@ -58,8 +58,8 @@ const Footer = () => {
           </div>
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">About</div>
-            {FooterAboutLinks?.map((social) => (
-              <Link href={social.href}>
+            {FooterAboutLinks?.map((social, index) => (
+              <Link href={social.href} key={index}>
                 <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   <span className="text-[15px] ml-[6px]">{social.name}</span>
                 </p>

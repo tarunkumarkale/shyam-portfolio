@@ -12,8 +12,8 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-10 z-[49]">
-        {ProjectCardInfo?.map((project) => (
-          <Link href={project.href} target="_blank">
+        {ProjectCardInfo?.map((project, index) => (
+          <Link href={project.href} key={index} target="_blank">
             <ProjectCard
               src={project.src}
               title={project.title}

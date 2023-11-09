@@ -39,7 +39,11 @@ const Navbar = () => {
           <div className="hidden w-[300px] h-full sm:flex flex-row items-center justify-between md:mr-20">
             <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
               {NavLinks?.map((item) => (
-                <a key={item.url} href={item.url} className="cursor-pointer  hover:scale-125 transition duration-300">
+                <a
+                  key={item.url}
+                  href={item.url}
+                  className="cursor-pointer  hover:scale-125 transition duration-300"
+                >
                   {item.name}
                 </a>
               ))}
@@ -48,11 +52,15 @@ const Navbar = () => {
 
           <div className="flex flex-row gap-5 items-center">
             {Socials?.map((social) => (
-              <Link passHref href={social.href} target="_blank">
+              <Link
+                key={social.name}
+                passHref
+                href={social.href}
+                target="_blank"
+              >
                 <Image
                   src={social.src}
                   alt={social.name}
-                  key={social.name}
                   width={30}
                   height={30}
                   className=" hover:scale-125 transition duration-300"
