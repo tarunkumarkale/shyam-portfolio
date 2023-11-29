@@ -28,15 +28,11 @@ const FooterSocialLinks = [
 ];
 const FooterAboutLinks = [
   {
-    name: "Learning about me",
+    name: "Learn about me",
     href: "/Shyam-Raghuwanshi.pdf",
   },
   {
     name: "shyamraghuonec@gmail.com",
-    href: "",
-  },
-  {
-    name: "Become Sponsor",
     href: "",
   },
 ];

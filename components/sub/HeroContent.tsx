@@ -33,7 +33,7 @@ const HeroContent = () => {
         >
           <span>
             Providing
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-500">
               {" "}
               the best{" "}
             </span>
@@ -43,10 +43,13 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-base sm:text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-base sm:text-lg text-gray-300 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Web-Developer. Proficient in HTML, CSS,
-          JavaScript, and frontend frameworks.
+          I&apos;m a Full Stack Developer. I possess extensive experience as
+          a skilled web developer. Proficient in HTML, CSS, JavaScript, and
+          frontend frameworks. In backend, I'm adept with MongoDB, Node.js,
+          Express, and APIs. I specialize in crafting responsive, userfriendly
+          interfaces, reflecting my dedication to a seamless user experience.
         </motion.p>
         <Link href={"/Shyam-Raghuwanshi.pdf"} target="_blank">
           <motion.div

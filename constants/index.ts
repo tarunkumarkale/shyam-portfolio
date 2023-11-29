@@ -87,12 +87,12 @@ export const Socials = [
   {
     name: "Linkedin",
     src: "/linkedin.svg",
-    href:"https://instagram.com/shyam_raghuonec"
+    href: "https://instagram.com/shyam_raghuonec",
   },
   {
     name: "Github",
     src: "/github.svg",
-    href:"https://github.com/Shyam-Raghuwanshi"
+    href: "https://github.com/Shyam-Raghuwanshi",
   },
 ];
 
@@ -276,6 +276,13 @@ export const NavLinks = [
 
 export const ProjectCardInfo = [
   {
+    src: "/notion.png",
+    title: "My-Notion Clone",
+    description:
+      "Welcome to NotionClone, the cutting-edge note-taking app designed to revolutionize your digital workspace. NotionClone combines the versatility of a comprehensive note-taking tool with state-of-the-art security features, ensuring your data is protected at every level.",
+    href: "https://my-notion-clone-six.vercel.app/documents/3mzy7j4tpr1geyncfpk9cjf39khsp2g",
+  },
+  {
     src: "/rootchoice.png",
     title: "Modern Ecommerce Website",
     description:
@@ -284,16 +291,9 @@ export const ProjectCardInfo = [
   },
   {
     src: "/discord-clone.png",
-    title: "Discord Clone",
+    title: "Discord Clone - On Progress",
     description:
       "Discord platform, offering users a comprehensive and secure communication experience. This includes real-time chat with both text and voice capabilities, robust user authentication, and authorization systems to manage different roles within the community.",
     href: "https://my-discord-app-omega.vercel.app/",
-  },
-  {
-    src: "/space-theme-portfolio.png",
-    title: "Space Themed Website",
-    description:
-      "Personal portfolio Website",
-    href: "",
   },
 ];
