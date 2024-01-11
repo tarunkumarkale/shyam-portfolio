@@ -114,7 +114,7 @@ html {
 }
 /* For WebKit browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
-  width: 12px; /* Set the width of the scrollbar */
+  width: 6px; /* Set the width of the scrollbar */
   backdrop-filter: blur(10px); /* Apply a backdrop filter blur effect */
 }
 

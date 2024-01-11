@@ -1,18 +1,15 @@
 import React from "react";
-import {
-  RxDiscordLogo,
-  RxGithubLogo,
-  RxInstagramLogo,
-  RxTwitterLogo,
-  RxLinkedinLogo,
-} from "react-icons/rx";
-
-import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 import Link from "next/link";
 const FooterSocialLinks = [
   {
+    name: "Twitter",
+    href: "https://www.twitter.com/shyam_raghuonec/",
+    icon: <FaTwitter />,
+  },
+  {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/shyam-raghuwanshi-b67489220/",
+    href: "https://www.linkedin.com/in/shyam-raghuwanshi/",
     icon: <FaLinkedin />,
   },
   {
@@ -33,7 +30,7 @@ const FooterAboutLinks = [
   },
   {
     name: "shyamraghuonec@gmail.com",
-    href: "",
+    href: "mailto:shyamraghuonec@gmail.com",
   },
 ];
 const Footer = () => {
@@ -65,7 +62,7 @@ const Footer = () => {
         </div>
 
         <div className="mb-[20px] text-[15px] text-center">
-          &copy; Shyam Dev 2023. All rights reserved
+          &copy; Shyam 2023. All rights reserved
         </div>
       </div>
     </div>

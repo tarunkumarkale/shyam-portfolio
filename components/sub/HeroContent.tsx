@@ -47,7 +47,7 @@ const HeroContent = () => {
         >
           I&apos;m a Full Stack Developer. I possess extensive experience as
           a skilled web developer. Proficient in HTML, CSS, JavaScript, and
-          frontend frameworks. In backend, I'm adept with MongoDB, Node.js,
+          frontend frameworks. In backend, I&apos;m adept with MongoDB, Node.js,
           Express, and APIs. I specialize in crafting responsive, userfriendly
           interfaces, reflecting my dedication to a seamless user experience.
         </motion.p>
