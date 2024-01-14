@@ -51,7 +51,7 @@ const HeroContent = () => {
           Express, and APIs. I specialize in crafting responsive, userfriendly
           interfaces, reflecting my dedication to a seamless user experience.
         </motion.p>
-        <Link href={"/Shyam-Raghuwanshi.pdf"} target="_blank">
+        <Link href={"/shyam-raghuwanshi.pdf"} target="_blank">
           <motion.div
             variants={slideInFromLeft(1)}
             className="font-extrabold known-more-btn text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 animate-pulse"
