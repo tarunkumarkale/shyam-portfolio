@@ -86,7 +86,7 @@ export const Socials = [
   {
     name: "Linkedin",
     src: "/linkedin.svg",
-    href: "https://instagram.com/shyam_raghuonec",
+    href: "https://www.linkedin.com/in/shyam-raghuwanshi/",
   },
   {
     name: "Github",
